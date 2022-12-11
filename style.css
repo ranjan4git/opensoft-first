@@ -78,8 +78,21 @@ nav img{
     transition: 1s;
 }
 .About{
-    padding: 10%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
-.About img{
-    width: 100px;
+.about-img{
+    display: flex;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.about-img img{
+    border-radius: 10px;
+    flex: 0.3;
+    width: 5%;
+    margin: 7px;
+    margin-top: 10px;
 }
