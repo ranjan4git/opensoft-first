@@ -96,3 +96,37 @@ nav img{
     margin: 7px;
     margin-top: 10px;
 }
+/* chefs */
+.chefs{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.chef-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.chef-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(250, 249, 249, 0.213);
+}
